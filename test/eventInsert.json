@@ -1,0 +1,156 @@
+{
+    "Records": [
+        {
+            "eventID": "492ea3168b870ca8716952452215fb75",
+            "eventName": "REMOVE",
+            "eventVersion": "1.0",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-west-2",
+            "dynamodb": {
+                "Keys": {
+                    "Local": {
+                        "S": "en"
+                    },
+                    "Timestamp": {
+                        "N": "1451914996"
+                    }
+                },
+                "NewImage": {
+                    "EmailType": {
+                        "S": "testnewsletter"
+                    },
+                    "ReferenceId": {
+                        "N": "1"
+                    },
+                    "UserId": {
+                        "N": "2"
+                    },
+                    "Local": {
+                        "S": "en"
+                    },
+                    "Timestamp": {
+                        "N": "1451914996"
+                    }
+                },
+                "SequenceNumber": "33021900000000001525951106",
+                "SizeBytes": 76,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-west-2:239008661775:table/BulkEmailTest/stream/2015-12-30T03:52:26.516"
+        },
+        {
+            "eventID": "492ea3168b870ca8716952452215fb75",
+            "eventName": "INSERT",
+            "eventVersion": "1.0",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-west-2",
+            "dynamodb": {
+                "Keys": {
+                    "Local": {
+                        "S": "en"
+                    },
+                    "Timestamp": {
+                        "N": "1451914996"
+                    }
+                },
+                "NewImage": {
+                    "EmailType": {
+                        "S": "newsletter"
+                    },
+                    "ReferenceId": {
+                        "N": "1"
+                    },
+                    "UserId": {
+                        "N": "2"
+                    },
+                    "Local": {
+                        "S": "en"
+                    },
+                    "Timestamp": {
+                        "N": "1451914996"
+                    }
+                },
+                "SequenceNumber": "33021900000000001525951106",
+                "SizeBytes": 76,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-west-2:239008661775:table/BulkEmailTest/stream/2015-12-30T03:52:26.516"
+        },
+        {
+            "eventID": "492ea3168b870ca8716952452215fb75",
+            "eventName": "REMOVE",
+            "eventVersion": "1.0",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-west-2",
+            "dynamodb": {
+                "Keys": {
+                    "Local": {
+                        "S": "en"
+                    },
+                    "Timestamp": {
+                        "N": "1451914996"
+                    }
+                },
+                "NewImage": {
+                    "EmailType": {
+                        "S": "testnewsletter"
+                    },
+                    "ReferenceId": {
+                        "N": "1"
+                    },
+                    "UserId": {
+                        "N": "2"
+                    },
+                    "Local": {
+                        "S": "en"
+                    },
+                    "Timestamp": {
+                        "N": "1451914996"
+                    }
+                },
+                "SequenceNumber": "33021900000000001525951106",
+                "SizeBytes": 76,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-west-2:239008661775:table/BulkEmailTest/stream/2015-12-30T03:52:26.516"
+        },
+        {
+            "eventID": "492ea3168b870ca8716952452215fb75",
+            "eventName": "INSERT",
+            "eventVersion": "1.0",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-west-2",
+            "dynamodb": {
+                "Keys": {
+                    "Local": {
+                        "S": "en"
+                    },
+                    "Timestamp": {
+                        "N": "1451914996"
+                    }
+                },
+                "NewImage": {
+                    "EmailType": {
+                        "S": "testnewsletter"
+                    },
+                    "ReferenceId": {
+                        "N": "1"
+                    },
+                    "UserId": {
+                        "N": "2"
+                    },
+                    "Local": {
+                        "S": "en"
+                    },
+                    "Timestamp": {
+                        "N": "1451914996"
+                    }
+                },
+                "SequenceNumber": "33021900000000001525951106",
+                "SizeBytes": 76,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-west-2:239008661775:table/BulkEmailTest/stream/2015-12-30T03:52:26.516"
+        }
+    ]
+}
