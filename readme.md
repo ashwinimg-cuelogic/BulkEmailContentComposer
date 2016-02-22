@@ -1,4 +1,4 @@
-# Email Activity Reporter
+# Bulk Email Content Composer
 This repository contains the node js code for AWS Lambda function to handle the API calls for getting bulk email content composer data.
 This function gets invoked when there is an event registered on BulkEmail Table
 
